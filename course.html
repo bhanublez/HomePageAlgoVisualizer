@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Algorithm Visualizer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="./images/test2.png" alt="" class="logo-image" /></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa fa-xmark" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./about.html">ABOUT</a></li>
+          <li><a href="./course.html">ALGORITHM</a></li>
+          <li><a href="./contact.html">FEEDBACK</a></li>
+          <li><a href="./login.html"><img src="./images/login.png" alt="" class="login-img"></a>
+          </li>
+        </ul>
+      </div>
+      <i class="fa-solid fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1>Our Algorithms</h1>
+  </section>
+
+  <!----- facitlities------->
+
+  <section class="facilities">
+    <div class="row">
+      <div class="facilities-col">
+        <img src="./images/Sorting.png" alt="" class="algo-img">
+        <h3>SORTING</h3>
+      </div>
+      <div class="facilities-col">
+        <img src="./images/path.png" alt="" class="algo-img">
+        <h3>PATH FINDING</h3>
+      </div>
+      <div class="facilities-col">
+        <img src="./images/binary.png" alt="" class="algo-img">
+        <h3>BINARY SEARCHING</h3>
+      </div>
+    </div>
+  </section>
+
+  <!--end facilities-->
+
+  <section class="footer">
+    <h4>About Us</h4>
+    <p>“Copy-and-Paste was programmed by programmers for programmers actually.”</p>
+    <div class="icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-linkedin"></i>
+    </div>
+    <p>Made By <i class="fa-solid fa-heart"></i> THE TREES</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
